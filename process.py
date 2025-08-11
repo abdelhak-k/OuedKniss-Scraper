@@ -227,6 +227,7 @@ class DataProcessorMini:
             "description": raw_data.get("description"),
             "price_preview": raw_data.get("pricePreview"),
             "created_at": raw_data.get("createdAt"),
+            "price_unit": raw_data.get("priceUnit"),
             "city": None
         }
         

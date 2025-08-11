@@ -213,6 +213,7 @@ def get_payload_post_mini(ann_id):
                 title
                 description
                 pricePreview
+                priceUnit
                 createdAt: refreshedAt
                 specs {
                     specification {
