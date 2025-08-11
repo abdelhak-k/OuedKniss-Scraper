@@ -55,13 +55,13 @@ if this method did not work you should browser the developer tools and check the
 
 #### Basic Usage
 ```python
-# Scrape laptops
+# Scrape only first 5 pages
 result = scrape_ouedkniss("informatique-ordinateur-portable",max_pages=5)
 ```
 
 #### Scrape all the possible Pages
 ```python
-# Scrape only first 5 pages
+# all possible laptop related pages 
 result = scrape_ouedkniss("informatique-ordinateur-portable")
 ```
 **Running the scraper**:
@@ -147,3 +147,4 @@ This scraper is not affiliated with or endorsed by OuedKniss.com. Use responsibl
 ## Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
+
