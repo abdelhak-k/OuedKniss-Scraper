@@ -28,7 +28,7 @@ def scrape_ouedkniss(category_slug: str, max_pages:int = None) -> str:
             raw_data = api.get_announcement_details(ann_id)
             all_raw_data.append(raw_data)
             # Rate limiting
-            time.sleep(0.1)
+            time.sleep(WAIT_TIME)
         
         # collect all unique spec labels; needed to add features based on the listing type
         print("Analyzing specifications...")
