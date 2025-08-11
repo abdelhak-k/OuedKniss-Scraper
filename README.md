@@ -94,7 +94,7 @@ TYPE = "MINI"  # Options: "MINI" or "ALL"
 - **Customizing Data Fields (specific portion of features)**:
 1. Add your new mode to `TYPE` options in `settings.py`
 2. Create corresponding processing logic in `process.py` and `utils.py`
-3. Create DataProcessor, CSVManager classes and create a new get_payload_post query in utils; just unwanted things from get_payload_post_all and fix DataProcessor and CSVManager accordingly
+3. Create DataProcessor, CSVManager classes and create a new get_payload_post query in utils; just remove unwanted things from get_payload_post_all and fix DataProcessor and CSVManager accordingly
 4. Update the field definitions accordingly
 
 
@@ -148,5 +148,6 @@ This scraper is not affiliated with or endorsed by OuedKniss.com. Use responsibl
 ## Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
+
 
 
